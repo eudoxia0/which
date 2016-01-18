@@ -1,5 +1,8 @@
 # which
 
+[![Build Status](https://travis-ci.org/eudoxia0/which.svg?branch=master)](https://travis-ci.org/eudoxia0/which)
+[![Coverage Status](https://coveralls.io/repos/github/eudoxia0/which/badge.svg?branch=master)](https://coveralls.io/github/eudoxia0/which?branch=master)
+
 The which UNIX command in Common Lisp.
 
 # Usage
