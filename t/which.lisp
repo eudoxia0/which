@@ -15,7 +15,7 @@
        (equal (which:which "bash") bash))))
   (is
    (null (which:which "qooblooxblarb")))
-  (signals
+  (signals error
    (error (which:which "/bin/bash"))))
 
 (defun run-tests ()
