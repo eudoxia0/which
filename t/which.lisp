@@ -12,7 +12,11 @@
   (let ((bash #p"/bin/bash"))
     (when (probe-file bash)
       (is
-       (equal (which:which "bash") bash)))))
+       (equal (which:which "bash") bash))))
+  (is
+   (null (which:which "qooblooxblarb")))
+  (signals
+   (error (which:which "/bin/bash"))))
 
 (defun run-tests ()
   (run! 'tests))
