@@ -7,7 +7,8 @@
   :bug-tracker "https://github.com/eudoxia0/which/issues"
   :source-control (:git "git@github.com:eudoxia0/which.git")
   :depends-on (:path-parse
-               :cl-fad)
+               :cl-fad
+               :uiop)
   :components ((:module "src"
                 :serial t
                 :components
